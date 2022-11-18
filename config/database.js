@@ -7,4 +7,4 @@ mongoose.connect(
 	useNewUrlParser: true
 }
 	).then(()=> console.log('conectado a la base de datos'))
-	.catch(error => console.log(error))
+	.catch(error => console.log(error)) 
